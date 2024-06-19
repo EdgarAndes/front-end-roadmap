@@ -4,7 +4,7 @@ const dayNum = document.getElementById('day-number');
 const yearEl = document.getElementById('year');
 
 const date = new Date();
-const month = date.getMonth();
+//const month = date.getMonth();
 
 
 monthName.innerText = date.toLocaleString('en', {
