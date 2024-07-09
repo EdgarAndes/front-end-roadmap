@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #E6B9A6;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h2{
+    
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-size: 42px;
+    color: #2F3645;
+}
+
+.clock{
+    display: flex;
+    position: relative;
+}
+
+.clock div{margin: 0 5px;}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: #EEEDEB;
+    color: #2F3645;
+}
+
+.clock .text{
+    background-color:#2F3645;
+    color: #EEEDEB;
+    height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;;
+}
+
+.clock #ampm{
+    position: absolute;
+    bottom: 0;
+    background-color: #F4A261;
+    height: 30px;
+    font-size: 24px;
+
+}
