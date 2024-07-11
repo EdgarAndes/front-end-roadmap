@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: "Libre Caslon Text", serif;
+    font-style: normal;
+}
+h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+.btn{
+    background-color: #405D72;
+    padding: 20px 40px;;
+    color: #fff;
+    font-size: 25px;
+    border: 4px solid #fff;
+    cursor: pointer;
+    transition: 1s background-color;
+    white-space: nowrap;
+}
+
+.btn:hover{
+    background-color: #FF4C4C;
+}
+
+.split{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: #36C2CE;
+    background-image: url("/img/lamborghini-urus.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: #9CDBA6;
+    background-image: url("/img/ferrari-sf90-stradale.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.active-left .left{width: 75%;}
+.active-left .left h1{font-size: 150px; transition: 1s;}
+.active-left .right{width: 25%;}
+
+.active-right .left{width: 25%;}
+.active-right .right{width: 75%;}
+.active-right .right h1{font-size: 150px; transition: 1s;}
+
+.left, .right{
+    transition: width 1s;
+}
