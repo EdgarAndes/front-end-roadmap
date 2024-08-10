@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=PT+Sans+Narrow:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #FEAE6F;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container{
+    padding: 10px 30px;
+    background-color: #01204E;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.input{
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.payment{
+    font-weight: 600;
+    font-size: 20px;;
+}
